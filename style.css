@@ -1,0 +1,423 @@
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: #fff;
+}
+.header{
+    width: 100%;
+    height: 71vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url(./assets/hero_img.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 1%;
+    position: relative;
+}
+.division{
+    width: 100%;
+    height: 7px;
+    background-color: rgb(46, 46, 46);
+}
+nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 221.9875px;
+}
+.logo{
+    
+    margin-left: 125px;
+    width: 148px;
+}
+
+.button{
+    margin-right: 150px;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    color: #fff; 
+    font-size: 15px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 600;
+}
+nav #transparent{
+    transition: all .1s ease-in-out;
+    border: 1px solid grey  ;
+    height: 30px;
+    width: 100px;
+    margin-right: 20px;
+    background-color: transparent;
+}
+#transparent:hover{
+    border: 1px solid rgb(189, 189, 189);
+}
+nav #red{
+    transition: all .2s ease-in-out;
+    border: none;
+    height: 30px;
+    width: 80px;
+    background-color: red;
+    cursor: pointer;
+}
+#red:hover{
+    background-color: rgb(194, 3, 3);
+}
+.header-text{
+    padding: 0;
+    width: 100%;
+    display: block;
+    transform: translate(-50%,);
+    text-align: center;
+    align-items: center;
+    margin-top: 190px;
+    flex-basis: 50%;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+.header-text h1{
+    font-size: 43px;
+    font-weight: 900;
+    margin-bottom: 18px;
+}
+.header-text #header-text-p1{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.header-text p{
+    font-size: 21px;
+}
+.header-text-button{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    margin-top: 15px;
+}
+.header-text-button #header-email-box{
+    height: 55px;
+    width: 390px;
+    padding-left: 15px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.397);
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 5px;
+    font-weight: 700;
+    color: #fff;
+}
+.header-text-button button{
+    height: 55px;
+    width: 190px;
+    margin-left: 9px;
+    background-color: rgb(246, 26, 26);
+    font-size: 22px;
+    color: #fff;
+    border: 1px solid rgb(246, 26, 26);
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* header down start */
+.header-down{
+    width: 100%;
+    height: 583.23px;
+    background-color: black;
+    padding: 72px 0;
+}
+.header-down-container{
+    width: 1172.66px;
+    height: 439.23px;
+    margin: 0 365.172px;
+    display: flex;
+    align-items: center;
+    
+}
+.header-down-content{
+    width: 586.33px;
+}
+.header-down-content h1{
+    font-size: 40px;
+    font-weight: 800;
+    padding: 0 0 0 10px;
+    margin-bottom: 16px;
+}
+.header-down-content p{
+    font-size: 23px;
+    margin-bottom: 16px;
+    padding: 0 0 0 10px;
+}
+.header-down-image{
+    width: 586.33px;
+    padding-left: 6px;
+    align-items: center;
+}
+.header-down-image video{
+    width: 100%;
+    
+}
+.header-down-image-two{
+    width: 586.33px;
+    padding-left: 6px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+.header-down-image-two-children{
+    width: 586.33px;
+    padding-left: 6px;
+    align-items: center;
+    justify-content: center;
+}
+.header-down-image-two-children img{
+    width: 586.33px;
+    align-items: center;
+}
+.header-down-image-two img{
+    width: 586.33px;    
+}
+.rectangle{
+    width: 318.16px;
+    height: 104px;
+    background-color: black;
+    border: 2px solid grey;
+    border-radius: 15px;
+    position: relative;
+    bottom: 135px;
+    left: 134.085px;
+    padding: 8px 12px;
+    display: flex;
+}
+.rectangle #boxshot{
+    width: 57.14px;
+}
+.rectangle-text{
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    width: 169.02px;
+    margin-left: 10px;
+}
+.rectangle #icon{
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    position: relative;
+    top: 18px;
+}
+.rectangle-text p{
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    top: 22.13px;
+}
+.rectangle-text .downloading{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(34, 34, 255);
+}
+/* faq portion */
+.division-support{
+    width: 100%;
+    height: 72px;
+    background-color: black;
+}
+.footer{
+    width: 100%;
+    height: 930.59px;
+    padding: 72px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-second {
+    width: 1172.66px;
+    height: 786.59px;
+    text-align: center;
+}
+.footer-second-question{
+    width: 100%;
+    height: 534px;
+    margin-bottom: 20px;
+}
+.footer h1{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.footer-second-question-one{
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+    height: 84px;
+    padding: 24px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.footer-second-question-one p{
+    font-size: 24px;
+}
+.footer-second p{
+    font-size: 24px;
+}
+.footer-second-button{
+    margin-top: 30px;
+}
+.footer-links{
+    width: 1268.66px;
+    height: 270px;
+    margin: 72px 317.172px;
+    padding: 0 48px;
+    
+}
+.footer-links-number{
+    width: 1172.66px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-links-grid{
+    width: 1172.66px;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 20px;
+}
+.footer-links-grid .link{
+    width: 284.16px;
+    height: 19px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.footer-links #transparent{
+    color: #fff;
+    transition: all .1s ease-in-out;
+    border: 1px solid grey  ;
+    height: 30px;
+    width: 100px;
+    margin-right: 20px;
+    background-color: transparent;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+#transparent:hover{
+    border: 1px solid rgb(227, 227, 227);
+}
+.copyright{
+    font-size: 14px;
+    font-weight: 100;
+    color: rgb(200, 200, 200);
+}
+@media(max-width: 1880px){
+    nav{
+        padding: 10px 61.31746px;
+    }
+    .header{
+        height: 700px;
+    }
+    .header-text{
+        margin-top: 200px;
+    }
+    .header-down{
+        height: 694.98px;
+        padding: 4.5rem 0 ;
+    }
+    .header-down-container{
+        justify-content: center;
+        width: 1470.66px;
+        height: 550.98px;
+        margin: 0 204.672px;
+        gap: 298px;
+    }
+    
+}
+@media(max-width: 1279px){
+    .logo{
+        margin-left: 10px;
+    }
+    nav{
+        padding: 10px 9.2188px;
+    }
+    div.button{
+        margin-right: 10px;
+    }
+}
+@media(max-width: 959px){
+    .logo{
+        width: 89px;
+    }
+    div.header{
+        height: 521px;
+    }
+    .header-text{
+        margin-top: 145px;
+    }
+    .header-text h1{
+        font-size: 28px;
+        height: 40px;
+    }
+    .header-text #header-text-p1{
+        font-size: 19px;
+    }
+    .header-text p{
+        font-size: 18.5px;
+    }
+}
+@media(max-width: 599px){
+    nav #transparent{
+        margin-right: 10px;
+    }
+    div.header{
+        height: 480px;
+    }
+    .header-text{
+        margin-top: 65px;
+        padding: 0 20px 0 20px;
+    }
+    .header-text #header-text-p1{
+        margin-top: 50px;
+    }
+    
+}
+@media(max-width: 390px){
+    div.header{
+        height: 504px;
+    }
+}
+@media(max-width: 430px){
+    .header{
+        height: 82vh;
+    }
+    .button #transparent{
+        margin-right: 10px;
+    }
+    .header-text{
+        margin-top: 65px;
+        padding: 0 20px 0 20px;
+    }
+    .header-text #header-text-p1{
+        margin-top: 50px;
+    }
+    .header-text p{
+        margin-bottom: 20px;
+    }
+    .header-text-button{
+        display: inline;
+    }
+    .header-text-button #header-email-box{
+        width: 340px;
+        margin-bottom: 20px;
+    }
+}

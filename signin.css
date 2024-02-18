@@ -1,0 +1,141 @@
+
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.595), rgba(0, 0, 0, 0.674)), url(./assets/hero_img.jpg);
+    background-size: cover;
+    background-color: black;
+    width: 100%;
+    height: 100%;  
+    color: #fff;
+}
+.header{
+    width: 100%;
+    height: 90vh;
+    padding: 8px 90px;
+    
+}
+nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 50px;
+}
+.logo{
+    margin-left: 190px;
+    width: 190px;
+}
+.container{
+    border-radius: 5px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 60px;
+    width: 480px;
+    height: 700px;
+    background-color: rgba(4, 4, 4, 0.627); 
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading-sign-in{
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 550;
+}
+#input-box{
+    border: 1px solid rgb(195, 195, 195);
+    border-radius: 4px;
+    width: 360px;
+    height: 50px;
+    padding: 20px;
+    background-color: rgba(4, 4, 4, 0.627);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.submit-1{
+    width: 360px;
+    height: 40px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.or{
+    text-align: center;
+    color: #bdbdbd;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+#transparent{
+    background-color: rgba(255, 255, 255, 0.23);
+}
+.forgot-email{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+}
+.forgot-email:hover{
+    text-decoration: underline;
+}
+.second-box{
+    margin-top: 90px;
+}
+.second-box #check{
+    cursor: pointer;
+    border-radius: 3px;
+    height: 17px;
+    width: 17px;
+    background-color: transparent;
+    border: 1px solid #bdbdbd;
+    margin-right: 7px;
+}
+.second-box label{
+    font-size: 15px;
+    font-weight: 200;
+}
+#new-to-netflix{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #959595;
+}
+#new-to-netflix a{
+    color: #fff;
+    text-decoration: none;
+}
+#new-to-netflix a:hover{
+    text-decoration: underline;
+}
+.learn-more{
+    font-size: 13px;
+    font-weight: 400;
+    color: #959595;
+}
+.learn-more-2{
+    text-decoration: none;
+    color: rgb(53, 53, 255);
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.504);
+    width: 100%;
+    height: 400px;
+    padding: 60px 100px;
+}
